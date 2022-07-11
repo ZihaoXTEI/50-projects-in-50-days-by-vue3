@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="expanding-cards">expanding-cards</router-link>
-    <router-link to="/about">About</router-link>
+    <router-link to="expanding-cards">Expanding Cards | 扩展卡</router-link>
+    <router-link to="progress-steps">Progress Steps | 进度条</router-link>
   </nav>
 </template>
 
