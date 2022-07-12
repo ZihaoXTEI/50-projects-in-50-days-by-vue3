@@ -1,17 +1,19 @@
 <template>
-  <div class="container">
-    <template v-for="item in imageData" :key="item.index">
-      <div
-        class="panel"
-        :class="{ active: item.index === currentIndex }"
-        :style="{ backgroundImage: `url(${item.imageUrl})` }"
-        @click="handleClick(item.index)"
-      >
-        <h3>{{ item.name }}</h3>
-      </div>
-    </template>
+  <div id="page">
+    <div class="container">
+      <template v-for="item in imageData" :key="item.index">
+        <div
+          class="panel"
+          :class="{ active: item.index === currentIndex }"
+          :style="{ backgroundImage: `url(${item.imageUrl})` }"
+          @click="handleClick(item.index)"
+        >
+          <h3>{{ item.name }}</h3>
+        </div>
+      </template>
 
-    <back-home></back-home>
+      <back-home></back-home>
+    </div>
   </div>
 </template>
 
@@ -69,6 +71,15 @@ export default {
 </script>
 
 <style lang="less" scoped>
+#page {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
 .container {
   display: flex;
   width: 90vw;

@@ -1,28 +1,30 @@
 <template>
-  <div class="container">
-    <div class="progress-container">
-      <div class="progress" :style="{ width: progressWidth }"></div>
+  <div id="page">
+    <div class="container">
+      <div class="progress-container">
+        <div class="progress" :style="{ width: progressWidth }"></div>
 
-      <!-- <div class="circle">1</div>
+        <!-- <div class="circle">1</div>
       <div class="circle">2</div>
       <div class="circle">3</div>
       <div class="circle">4</div> -->
 
-      <template v-for="(item, index) in stepData" :key="index">
-        <div class="circle" :class="{ active: index <= currentActive }">
-          {{ index + 1 }}
-        </div>
-      </template>
+        <template v-for="(item, index) in stepData" :key="index">
+          <div class="circle" :class="{ active: index <= currentActive }">
+            {{ index + 1 }}
+          </div>
+        </template>
+      </div>
+
+      <button class="btn" @click="handlePrevClick" :disabled="isPrevDisabled">
+        上一步
+      </button>
+      <button class="btn" @click="handleNextClick" :disabled="isNextDisabled">
+        下一步
+      </button>
+
+      <back-home></back-home>
     </div>
-
-    <button class="btn" @click="handlePrevClick" :disabled="isPrevDisabled">
-      上一步
-    </button>
-    <button class="btn" @click="handleNextClick" :disabled="isNextDisabled">
-      下一步
-    </button>
-
-    <back-home></back-home>
   </div>
 </template>
 
@@ -102,6 +104,17 @@ export default {
 <style lang="less" scoped>
 @border-fill: #3498db;
 @border-empty: #e0e0e0;
+
+#page {
+  background-color: #f6f7fb;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
 
 .container {
   text-align: center;

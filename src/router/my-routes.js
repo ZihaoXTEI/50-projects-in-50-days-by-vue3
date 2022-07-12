@@ -33,5 +33,27 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "progress-steps" */ '../views/progress-steps/index.vue'
       )
+  },
+  {
+    path: '/rotating-nav-animation',
+    name: 'rotating-nav-animation',
+    meta: {
+      title: '旋转导航动画'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "rotating-nav-animation" */ '../views/rotating-nav-animation/index.vue'
+      )
+  },
+  {
+    path: '/hidden-search',
+    name: 'hidden-search',
+    meta: {
+      title: '可隐藏的搜索框'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "hidden-search" */ '../views/hidden-search/index.vue'
+      )
   }
 ]

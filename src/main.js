@@ -2,7 +2,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
+import 'normalize.css'
 import './assets/css/base.css'
+
+// 导入图标
+import './assets/iconfont/iconfont.css'
 
 import BackHome from './components/back-home'
 

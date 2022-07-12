@@ -2,6 +2,10 @@
   <nav>
     <router-link to="expanding-cards">Expanding Cards | 扩展卡</router-link>
     <router-link to="progress-steps">Progress Steps | 进度条</router-link>
+    <router-link to="rotating-nav-animation"
+      >Rotating Nav Animation | 旋转导航动画</router-link
+    >
+    <router-link to="hidden-search">Hidden Search | 可隐藏的搜索框</router-link>
   </nav>
 </template>
 

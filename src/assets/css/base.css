@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   background-color: #f6f7fb;
   font-family: 'Muli', sans-serif;
   display: flex;
@@ -13,4 +13,4 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-}
+} */
