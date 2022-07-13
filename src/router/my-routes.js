@@ -55,5 +55,38 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "hidden-search" */ '../views/hidden-search/index.vue'
       )
+  },
+  {
+    path: '/blurry-loading',
+    name: 'blurry-loading',
+    meta: {
+      title: '模糊加载'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "blurry-loading" */ '../views/blurry-loading/index.vue'
+      )
+  },
+  {
+    path: '/scroll-animation',
+    name: 'scroll-animation',
+    meta: {
+      title: '滚动动画'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "scroll-animation" */ '../views/scroll-animation/index.vue'
+      )
+  },
+  {
+    path: '/split-landing-page',
+    name: 'split-landing-page',
+    meta: {
+      title: '拆分登录页'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "split-landing-page" */ '../views/split-landing-page/index.vue'
+      )
   }
 ]
