@@ -12,6 +12,8 @@
         <i class="iconfont icon-icon-sousuo"></i>
       </button>
     </div>
+
+    <back-home></back-home>
   </div>
 </template>
 

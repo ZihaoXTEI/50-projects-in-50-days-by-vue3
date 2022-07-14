@@ -6,6 +6,8 @@
         <h2>Content</h2>
       </div>
     </template>
+
+    <back-home></back-home>
   </div>
 </template>
 

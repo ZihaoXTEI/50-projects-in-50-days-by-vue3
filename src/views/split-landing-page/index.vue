@@ -22,6 +22,8 @@
         <a href="#" class="btn">Buy Now</a>
       </div>
     </div>
+
+    <back-home></back-home>
   </div>
 </template>
 

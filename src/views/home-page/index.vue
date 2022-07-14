@@ -11,6 +11,9 @@
     <router-link to="split-landing-page">
       Split Landing Page | 拆分登录页
     </router-link>
+    <router-link to="form-wave"> Form Wave | 表单波浪效果 </router-link>
+    <router-link to="sound-board"> Sound Board | 声音面板 </router-link>
+    <router-link to="dad-jokes"> Dad Jokes | 爸爸的笑话 </router-link>
   </nav>
 </template>
 

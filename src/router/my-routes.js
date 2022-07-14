@@ -88,5 +88,34 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "split-landing-page" */ '../views/split-landing-page/index.vue'
       )
+  },
+  {
+    path: '/form-wave',
+    name: 'form-wave',
+    meta: {
+      title: '表单波浪效果'
+    },
+    component: () =>
+      import(/* webpackChunkName: "form-wave" */ '../views/form-wave/index.vue')
+  },
+  {
+    path: '/sound-board',
+    name: 'sound-board',
+    meta: {
+      title: '声音面板'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "sound-board" */ '../views/sound-board/index.vue'
+      )
+  },
+  {
+    path: '/dad-jokes',
+    name: 'dad-jokes',
+    meta: {
+      title: '爸爸的笑话'
+    },
+    component: () =>
+      import(/* webpackChunkName: "dad-jokes" */ '../views/dad-jokes/index.vue')
   }
 ]
