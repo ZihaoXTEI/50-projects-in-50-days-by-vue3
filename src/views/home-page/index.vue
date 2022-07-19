@@ -14,6 +14,18 @@
     <router-link to="form-wave"> Form Wave | 表单波浪效果 </router-link>
     <router-link to="sound-board"> Sound Board | 声音面板 </router-link>
     <router-link to="dad-jokes"> Dad Jokes | 爸爸的笑话 </router-link>
+    <router-link to="event-keycodes"> Event Keycodes | 键盘事件 </router-link>
+    <router-link to="faq-collapse"> FAQ collapse | FAQ 折叠卡片 </router-link>
+    <router-link to="random-choice-picker">
+      Random Choice Picker | 随机选择选择器
+    </router-link>
+    <router-link to="animated-navigation">
+      Animated Navigation | 动画导航栏
+    </router-link>
+    <router-link to="incrementing-counter">
+      Incrementing Counter | 递增计算器
+    </router-link>
+    <router-link to="drink-water"> Drink Water | 每日喝水 </router-link>
   </nav>
 </template>
 
