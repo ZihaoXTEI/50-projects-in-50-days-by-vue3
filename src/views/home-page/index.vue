@@ -26,6 +26,14 @@
       Incrementing Counter | 递增计算器
     </router-link>
     <router-link to="drink-water"> Drink Water | 每日喝水 </router-link>
+    <router-link to="movie-app"> Movie App | 电影 App </router-link>
+    <router-link to="background-slider">
+      Background Slider | 背景滑块墙
+    </router-link>
+    <router-link to="theme-clock"> Theme Clock | 主题时钟 </router-link>
+    <router-link to="button-ripple-effect">
+      Button Ripple Effect | 按钮波纹效果
+    </router-link>
   </nav>
 </template>
 

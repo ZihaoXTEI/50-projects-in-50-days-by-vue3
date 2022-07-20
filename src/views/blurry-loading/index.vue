@@ -13,6 +13,8 @@
 <script>
 import { onMounted, ref } from 'vue'
 
+import { scale } from '@/utils'
+
 export default {
   name: 'blurry-loading',
   props: {
@@ -44,10 +46,6 @@ export default {
       const interval = setInterval(blurring, 30)
     })
 
-    // 将给定范围的数字映射到另一个范围数字
-    const scale = (number, inMin, inMax, outMin, outMax) => {
-      return ((number - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin
-    }
     return {
       loadText,
       loadTextOpacity,

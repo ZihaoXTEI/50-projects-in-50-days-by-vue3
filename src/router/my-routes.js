@@ -183,5 +183,47 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "drink-water" */ '../views/drink-water/index.vue'
       )
+  },
+  {
+    path: '/movie-app',
+    name: 'movie-app',
+    meta: {
+      title: '电影App'
+    },
+    component: () =>
+      import(/* webpackChunkName: "movie-app" */ '../views/movie-app/index.vue')
+  },
+  {
+    path: '/background-slider',
+    name: 'background-slider',
+    meta: {
+      title: '背景滑块墙'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "background-slider" */ '../views/background-slider/index.vue'
+      )
+  },
+  {
+    path: '/theme-clock',
+    name: 'theme-clock',
+    meta: {
+      title: '主题时钟'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "theme-clock" */ '../views/theme-clock/index.vue'
+      )
+  },
+  {
+    path: '/button-ripple-effect',
+    name: 'button-ripple-effect',
+    meta: {
+      title: '按钮波纹效果'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "button-ripple-effect" */ '../views/button-ripple-effect/index.vue'
+      )
   }
 ]
