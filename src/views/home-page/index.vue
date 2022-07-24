@@ -34,6 +34,14 @@
     <router-link to="button-ripple-effect">
       Button Ripple Effect | 按钮波纹效果
     </router-link>
+    <router-link to="drag-n-drop"> Drag N Drop | 拖放事件 </router-link>
+    <router-link to="drawing-app"> Drawing App | 绘画板 </router-link>
+    <router-link to="kinetic-loader">
+      Kinetic Loader | 三角形运动加载效果
+    </router-link>
+    <router-link to="content-placeholder">
+      Content Placeholder | 内容占位符（骨架屏）
+    </router-link>
   </nav>
 </template>
 
@@ -50,6 +58,7 @@ export default {
 nav {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 
   a {
     font-weight: bold;

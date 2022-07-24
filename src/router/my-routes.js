@@ -225,5 +225,49 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "button-ripple-effect" */ '../views/button-ripple-effect/index.vue'
       )
+  },
+  {
+    path: '/drag-n-drop',
+    name: 'drag-n-drop',
+    meta: {
+      title: '拖放事件'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "drag-n-drop" */ '../views/drag-n-drop/index.vue'
+      )
+  },
+  {
+    path: '/drawing-app',
+    name: 'drawing-app',
+    meta: {
+      title: '绘画板'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "drawing-app" */ '../views/drawing-app/index.vue'
+      )
+  },
+  {
+    path: '/kinetic-loader',
+    name: 'kinetic-loader',
+    meta: {
+      title: '动态三角形加载效果'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "kinetic-loader" */ '../views/kinetic-loader/index.vue'
+      )
+  },
+  {
+    path: '/content-placeholder',
+    name: 'content-placeholder',
+    meta: {
+      title: '内容占位符（骨架屏）'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "content-placeholder" */ '../views/content-placeholder/index.vue'
+      )
   }
 ]
