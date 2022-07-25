@@ -42,6 +42,15 @@
     <router-link to="content-placeholder">
       Content Placeholder | 内容占位符（骨架屏）
     </router-link>
+    <router-link to="sticky-navigation">
+      Sticky Navigation | 粘性导航栏
+    </router-link>
+    <router-link to="double-vertical-slider">
+      Double Vertical Slider | 双垂直滑块
+    </router-link>
+    <router-link to="toast-notification">
+      Toast Notification | 吐司通知
+    </router-link>
   </nav>
 </template>
 

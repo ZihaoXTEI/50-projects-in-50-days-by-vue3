@@ -269,5 +269,38 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "content-placeholder" */ '../views/content-placeholder/index.vue'
       )
+  },
+  {
+    path: '/sticky-navigation',
+    name: 'sticky-navigation',
+    meta: {
+      title: '粘性导航栏'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "sticky-navigation" */ '../views/sticky-navigation/index.vue'
+      )
+  },
+  {
+    path: '/double-vertical-slider',
+    name: 'double-vertical-slider',
+    meta: {
+      title: '双垂直滑块'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "double-vertical-slider" */ '../views/double-vertical-slider/index.vue'
+      )
+  },
+  {
+    path: '/toast-notification',
+    name: 'toast-notification',
+    meta: {
+      title: '吐司通知'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "toast-notification" */ '../views/toast-notification/index.vue'
+      )
   }
 ]
