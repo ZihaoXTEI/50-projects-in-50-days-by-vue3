@@ -51,6 +51,22 @@
     <router-link to="toast-notification">
       Toast Notification | 吐司通知
     </router-link>
+    <router-link to="double-click-heart">
+      Double Click Heart | 双击心效果
+    </router-link>
+    <router-link to="auto-text-effect">
+      Auto Text Effect | 自动文字效果
+    </router-link>
+    <router-link to="password-generator">
+      Password Generator | 密码生成器
+    </router-link>
+    <router-link to="good-cheap-fast">
+      Good Cheap Fast | 滑动选择器
+    </router-link>
+    <router-link to="notes-app"> Notes App | 笔记应用 </router-link>
+    <router-link to="animated-countdown">
+      Animated Countdown | 动画倒计时
+    </router-link>
   </nav>
 </template>
 

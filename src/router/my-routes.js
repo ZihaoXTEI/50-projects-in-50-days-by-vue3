@@ -302,5 +302,69 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "toast-notification" */ '../views/toast-notification/index.vue'
       )
+  },
+  {
+    path: '/double-click-heart',
+    name: 'double-click-heart',
+    meta: {
+      title: '双击心效果'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "double-click-heart" */ '../views/double-click-heart/index.vue'
+      )
+  },
+  {
+    path: '/auto-text-effect',
+    name: 'auto-text-effect',
+    meta: {
+      title: '自动文字效果'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "auto-text-effect" */ '../views/auto-text-effect/index.vue'
+      )
+  },
+  {
+    path: '/password-generator',
+    name: 'password-generator',
+    meta: {
+      title: '密码生成器'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "password-generator" */ '../views/password-generator/index.vue'
+      )
+  },
+  {
+    path: '/good-cheap-fast',
+    name: 'good-cheap-fast',
+    meta: {
+      title: '待办事项'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "good-cheap-fast" */ '../views/good-cheap-fast/index.vue'
+      )
+  },
+  {
+    path: '/notes-app',
+    name: 'notes-app',
+    meta: {
+      title: '笔记应用'
+    },
+    component: () =>
+      import(/* webpackChunkName: "notes-app" */ '../views/notes-app/index.vue')
+  },
+  {
+    path: '/animated-countdown',
+    name: 'animated-countdown',
+    meta: {
+      title: '动画倒计时'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "animated-countdown" */ '../views/animated-countdown/index.vue'
+      )
   }
 ]

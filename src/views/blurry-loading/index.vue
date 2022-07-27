@@ -7,6 +7,8 @@
     <div class="loading-text" :style="{ opacity: loadTextOpacity }">
       {{ loadText }}%
     </div>
+
+    <back-home></back-home>
   </div>
 </template>
 
