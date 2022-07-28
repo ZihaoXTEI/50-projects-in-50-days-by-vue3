@@ -366,5 +366,47 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "animated-countdown" */ '../views/animated-countdown/index.vue'
       )
+  },
+  {
+    path: '/image-carousel',
+    name: 'image-carousel',
+    meta: {
+      title: '图像轮播'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "image-carousel" */ '../views/image-carousel/index.vue'
+      )
+  },
+  {
+    path: '/hoverboard',
+    name: 'hoverboard',
+    meta: {
+      title: '悬停板'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "hoverboard" */ '../views/hoverboard/index.vue'
+      )
+  },
+  {
+    path: '/pokedex',
+    name: 'pokedex',
+    meta: {
+      title: '宝可梦图鉴'
+    },
+    component: () =>
+      import(/* webpackChunkName: "pokedex" */ '../views/pokedex/index.vue')
+  },
+  {
+    path: '/mobile-tab-navigation',
+    name: 'mobile-tab-navigation',
+    meta: {
+      title: '移动标签导航'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "mobile-tab-navigation" */ '../views/mobile-tab-navigation/index.vue'
+      )
   }
 ]

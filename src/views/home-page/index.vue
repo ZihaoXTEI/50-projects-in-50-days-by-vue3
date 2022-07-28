@@ -67,6 +67,12 @@
     <router-link to="animated-countdown">
       Animated Countdown | 动画倒计时
     </router-link>
+    <router-link to="image-carousel"> Image Carousel | 图像轮播 </router-link>
+    <router-link to="hoverboard"> Hoverboard | 悬停板 </router-link>
+    <router-link to="pokedex"> Pokedex | 宝可梦图鉴 </router-link>
+    <router-link to="mobile-tab-navigation">
+      Mobile Tab Navigation | 移动标签导航
+    </router-link>
   </nav>
 </template>
 
