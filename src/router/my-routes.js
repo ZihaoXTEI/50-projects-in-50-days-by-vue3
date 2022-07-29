@@ -408,5 +408,38 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "mobile-tab-navigation" */ '../views/mobile-tab-navigation/index.vue'
       )
+  },
+  {
+    path: '/password-strength-background',
+    name: 'password-strength-background',
+    meta: {
+      title: '密码强度背景'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "password-strength-background" */ '../views/password-strength-background/index.vue'
+      )
+  },
+  {
+    path: '/3d-boxes-background',
+    name: '3d-boxes-background',
+    meta: {
+      title: '3D 背景盒子'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "3d-boxes-background" */ '../views/3d-boxes-background/index.vue'
+      )
+  },
+  {
+    path: '/verify-account-ui',
+    name: 'verify-account-ui',
+    meta: {
+      title: '验证码界面'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "verify-account-ui" */ '../views/verify-account-ui/index.vue'
+      )
   }
 ]

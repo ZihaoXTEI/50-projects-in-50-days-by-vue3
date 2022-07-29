@@ -73,6 +73,15 @@
     <router-link to="mobile-tab-navigation">
       Mobile Tab Navigation | 移动标签导航
     </router-link>
+    <router-link to="password-strength-background">
+      Password Strength Background | 密码强度背景
+    </router-link>
+    <router-link to="3d-boxes-background">
+      3d Background Boxes | 3D 背景盒子
+    </router-link>
+    <router-link to="verify-account-ui">
+      Verify Account UI | 验证码界面
+    </router-link>
   </nav>
 </template>
 
