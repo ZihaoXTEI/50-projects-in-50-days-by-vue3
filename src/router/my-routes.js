@@ -441,5 +441,69 @@ export const myRoutes = [
       import(
         /* webpackChunkName: "verify-account-ui" */ '../views/verify-account-ui/index.vue'
       )
+  },
+  {
+    path: '/live-user-filter',
+    name: 'live-user-filter',
+    meta: {
+      title: '实时用户过滤器'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "live-user-filter" */ '../views/live-user-filter/index.vue'
+      )
+  },
+  {
+    path: '/feedback-ui-design',
+    name: 'feedback-ui-design',
+    meta: {
+      title: '反馈界面设计'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "feedback-ui-design" */ '../views/feedback-ui-design/index.vue'
+      )
+  },
+  {
+    path: '/custom-range-slider',
+    name: 'custom-range-slider',
+    meta: {
+      title: '自定义滑块范围'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "custom-range-slider" */ '../views/custom-range-slider/index.vue'
+      )
+  },
+  {
+    path: '/netflix-mobile-navigation',
+    name: 'netflix-mobile-navigation',
+    meta: {
+      title: 'Netflix 移动端导航'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "netflix-mobile-navigation" */ '../views/netflix-mobile-navigation/index.vue'
+      )
+  },
+  {
+    path: '/quiz-app',
+    name: 'quiz-app',
+    meta: {
+      title: '知识竞赛小程序'
+    },
+    component: () =>
+      import(/* webpackChunkName: "quiz-app" */ '../views/quiz-app/index.vue')
+  },
+  {
+    path: '/testimonial-box-switcher',
+    name: 'testimonial-box-switcher',
+    meta: {
+      title: '可切换推荐板块'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "testimonial-box-switcher" */ '../views/testimonial-box-switcher/index.vue'
+      )
   }
 ]

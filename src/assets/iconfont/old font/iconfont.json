@@ -6,20 +6,6 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "30809534",
-      "name": "更多",
-      "font_class": "gengduo",
-      "unicode": "e65c",
-      "unicode_decimal": 58972
-    },
-    {
-      "icon_id": "30820787",
-      "name": "关闭",
-      "font_class": "guanbi",
-      "unicode": "e66e",
-      "unicode_decimal": 58990
-    },
-    {
       "icon_id": "2076193",
       "name": "喜欢2",
       "font_class": "xihuan",

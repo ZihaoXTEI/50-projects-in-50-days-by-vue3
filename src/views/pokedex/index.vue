@@ -38,7 +38,9 @@ export default {
     })
 
     const getPokeMonData = async () => {
-      pokeMonData.value = await getAllPokeMonData()
+      // pokeMonData.value = await getAllPokeMonData()
+      const res = await getAllPokeMonData()
+      console.log(res)
     }
     return {
       pokeMonData

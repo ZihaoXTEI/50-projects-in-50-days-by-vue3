@@ -82,6 +82,22 @@
     <router-link to="verify-account-ui">
       Verify Account UI | 验证码界面
     </router-link>
+    <router-link to="live-user-filter">
+      Live User Filter | 实时用户过滤器
+    </router-link>
+    <router-link to="feedback-ui-design">
+      Feedback UI Design | 反馈界面设计
+    </router-link>
+    <router-link to="custom-range-slider">
+      Custom Range Slider | 自定义滑块范围
+    </router-link>
+    <router-link to="netflix-mobile-navigation">
+      Netflix Mobile Navigation | Netflix 移动端导航
+    </router-link>
+    <router-link to="quiz-app"> Quiz App | 知识竞赛小程序 </router-link>
+    <router-link to="testimonial-box-switcher">
+      Testimonial Box Switcher | 可切换推荐板块
+    </router-link>
   </nav>
 </template>
 
