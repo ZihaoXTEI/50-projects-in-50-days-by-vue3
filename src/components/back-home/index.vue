@@ -33,5 +33,10 @@ export default {
   color: #fff;
   background-color: skyblue;
   box-shadow: 5px 5px 10px -4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 </style>

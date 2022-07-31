@@ -4,11 +4,6 @@
       <div class="progress-container">
         <div class="progress" :style="{ width: progressWidth }"></div>
 
-        <!-- <div class="circle">1</div>
-      <div class="circle">2</div>
-      <div class="circle">3</div>
-      <div class="circle">4</div> -->
-
         <template v-for="(item, index) in stepData" :key="index">
           <div class="circle" :class="{ active: index <= currentActive }">
             {{ index + 1 }}
@@ -75,8 +70,11 @@ export default {
 
     const update = () => {
       // 计算出进度条长度
-      progressWidth.value =
-        (currentActive.value / (props.stepData.length - 1)) * 100 - 5 + '%'
+      let width = (currentActive.value / (props.stepData.length - 1)) * 100 - 2
+
+      width = width > 0 ? width : 0
+
+      progressWidth.value = width + '%'
 
       // 更新按钮状态
       if (currentActive.value === 0) {
@@ -148,7 +146,7 @@ export default {
     width: 0%;
     background-color: @border-fill;
     transform: translateY(-50%);
-    z-index: -1;
+    // z-index: 1;
     transition: 0.4s ease;
   }
 
@@ -163,6 +161,7 @@ export default {
     color: #999;
     border-radius: 50%;
     transition: 0.4s ease;
+    z-index: 1;
 
     &.active {
       border-color: @border-fill;

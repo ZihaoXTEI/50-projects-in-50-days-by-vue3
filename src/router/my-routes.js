@@ -304,6 +304,17 @@ export const myRoutes = [
       )
   },
   {
+    path: '/github-profiles',
+    name: 'github-profiles',
+    meta: {
+      title: 'Github 个人资料'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "github-profiles" */ '../views/github-profiles/index.vue'
+      )
+  },
+  {
     path: '/double-click-heart',
     name: 'double-click-heart',
     meta: {
@@ -504,6 +515,37 @@ export const myRoutes = [
     component: () =>
       import(
         /* webpackChunkName: "testimonial-box-switcher" */ '../views/testimonial-box-switcher/index.vue'
+      )
+  },
+  {
+    path: '/random-image-generator',
+    name: 'random-image-generator',
+    meta: {
+      title: '随机图片生成器'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "random-image-generator" */ '../views/random-image-generator/index.vue'
+      )
+  },
+  {
+    path: '/todo-list',
+    name: 'todo-list',
+    meta: {
+      title: '代办事项列表'
+    },
+    component: () =>
+      import(/* webpackChunkName: "todo-list" */ '../views/todo-list/index.vue')
+  },
+  {
+    path: '/insect-catch-game',
+    name: 'insect-catch-game',
+    meta: {
+      title: '昆虫捕捉游戏'
+    },
+    component: () =>
+      import(
+        /* webpackChunkName: "insect-catch-gamet" */ '../views/insect-catch-game/index.vue'
       )
   }
 ]
